@@ -18,7 +18,7 @@ def get_num_char(string, char):
 def get_first_part_of_name(name):
 	nom_separe = name.split("-")
 	premier_nom = nom_separe[0]
-	return"Bonjour " + (premier_nom).capitalize()
+	return"Bonjour, " + (premier_nom).capitalize()
 
 
 def get_random_sentence(animals, adjectives, fruits):
